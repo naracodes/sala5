@@ -1,0 +1,35 @@
+/* 
+
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. o identificador das variáveis;
+2. a declaração das variáveis com seus respectivos identificadores e tipos de dado;
+3. a utilização do comando de atribuição, apresentando identificador e dado.
+
+Realize essa atividade no WORD ou no Bloco de Notas, 
+suba esse arquivo para algum repositório e compartilhe o link 
+no campo ao lado para que outros desenvolvedores possam analisá-lo.
+*/
+
+// Nome: José Almeida da Silva -> nome é uma variável do tipo caracteres, vai receber o nome do usuário.
+// CPF: 12345678900 -> cpf é uma variável do tipo inteiro, vai receber números.
+// RG: 9517530 -> rg é uma variável do tipo inteiro, vai receber números.
+// Altura: 1,78 -> altura é uma variável de números reais, vai receber números com casas decimais
+// Endereço: Rua A, 380 – Centro – Recife/PE -> endereço é uma variável do tipo caracteres, vai receber letras e números
+
+ caracteres: nome, endereco;
+ inteiros: cpf, rg;
+ reais: altura;
+ 
+ nome = "José Almeida da Silva";
+ cpf = 12345678900;
+ rg = 9517530;
+ altura = 1.78;
+ endereco = "Rua A, 380 – Centro – Recife/PE"
